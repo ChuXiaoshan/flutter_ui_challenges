@@ -42,7 +42,8 @@ class MyApp extends StatelessWidget {
               primarySwatch: Colors.red,
               accentColor: Colors.indigo,
             ),
-            home: user.loginSkipped ? NewHomePage() : AuthHomePage(),
+//            home: user.loginSkipped ? NewHomePage() : AuthHomePage(),
+            home:  NewHomePage(),
             routes: {
               "auth_home": (_) => AuthHomePage(),
               "challenge_home": (_) => HomePage(),
